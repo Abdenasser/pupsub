@@ -1,6 +1,7 @@
 'use strict';
 
 var redis = require('../lib/redis');
+var broadcast = require('../lib/broadcast');
 
 /**
  * exports - description
