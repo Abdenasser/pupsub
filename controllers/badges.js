@@ -1,6 +1,7 @@
 'use strict';
 
 var _ = require('underscore');
+var model = require('../models/badges');
 
 // Send bdges to model to be saved
 exports.save = function(req, res, next) {
